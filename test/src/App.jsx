@@ -1,5 +1,6 @@
 import React from 'react'
 import './App.css'
+import CounterWithStep from './features/Day4/components/CounterWithStep'
 // import CounterReducer from './features/Day4/components/CounterReducer'
 // import UserListFetch from './features/Day3/components/UserListFetch'
 // import InputFocus from './features/Day3/components/InputFocus'
@@ -55,6 +56,7 @@ function App() {
       <Route path="/about" element={<About />} />
     </Routes> */}
     {/* <CounterReducer /> */}
+    <CounterWithStep />
     
     </>
   )
