@@ -1,6 +1,8 @@
 import React from 'react'
 import './App.css'
-import CounterWithStep from './features/Day4/components/CounterWithStep'
+// import CounterWithStep from './features/Day4/components/CounterWithStep'
+// import UsersList from './features/Day4/components/complexRoutes/UsersList'
+// import UserDetails from './features/Day4/components/complexRoutes/UserDetails'
 // import CounterReducer from './features/Day4/components/CounterReducer'
 // import UserListFetch from './features/Day3/components/UserListFetch'
 // import InputFocus from './features/Day3/components/InputFocus'
@@ -56,7 +58,12 @@ function App() {
       <Route path="/about" element={<About />} />
     </Routes> */}
     {/* <CounterReducer /> */}
-    <CounterWithStep />
+    {/* <CounterWithStep /> */}
+    {/* <h1>My App with React Router</h1>
+      <Routes>
+        <Route path="/" element={<UsersList />} />
+        <Route path="/users/:id" element={<UserDetails />} />
+      </Routes> */}
     
     </>
   )
